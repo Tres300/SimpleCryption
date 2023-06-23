@@ -1,3 +1,3 @@
 # SimpleCryption
-Simple encryption/decryption for individual files  
+Simple encryption/decryption for individual text files  
 WORK IN PROGRESS  
