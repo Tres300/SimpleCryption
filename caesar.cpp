@@ -1,5 +1,5 @@
 // Created by Tres300 for SimpleCryption
-// Caesar Cypher Encryption and Decryption
+// Caesar Cipher Encryption and Decryption
 // Last Updated 6/30/23
 
 #include <string>

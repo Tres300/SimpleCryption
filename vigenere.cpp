@@ -1,5 +1,5 @@
 // Created by Tres300 for SimpleCryption
-// Vigenère Cypher Encryption and Decryption
+// Vigenère Cipher Encryption and Decryption
 // Last Updated 6/30/23
 
 #include <string>
