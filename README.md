@@ -1,3 +1,10 @@
 # SimpleCryption
-Simple encryption/decryption for individual text files  
-WORK IN PROGRESS  
+Simple encryption/decryption using different methods for strings and individual text files.
+Current Methods:
+* Caesar Cipher
+* Vigenère Cipher
+
+Coming Soon:
+* AES-128
+
+WORK IN PROGRESS
