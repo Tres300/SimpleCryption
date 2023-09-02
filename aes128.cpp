@@ -1,6 +1,6 @@
 // Created by Tres300 for SimpleCryption
 // AES128 Encryption and Decryption
-// Last Updated 7/27/23
+// Last Updated 9/1/23
 
 #include <cstdint>
 #include <cstring>
