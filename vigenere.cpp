@@ -3,7 +3,6 @@
 // Last Updated 6/30/23
 
 #include <string>
-#include <utility>
 #include <cctype>
 
 // Encrypts message using a Vigenère Cipher and a key.

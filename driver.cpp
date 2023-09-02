@@ -4,10 +4,17 @@
 
 #include "caesar.cpp"
 #include "vigenere.cpp"
+#include "aes128.cpp"
+#include <sstream>
 #include <iostream>
+#include <iomanip>
+#include <cstdint>
+#include <queue>
+
 using namespace std;
 
 int main() {
+
     cout << "Caesar Test Encryptions:" << endl;
     cout << caesarEncrypt("Hello! This is a secret message.",1) << endl;
     cout << caesarEncrypt("I am a potato",-3) << endl;
@@ -27,5 +34,13 @@ int main() {
     cout << vigenereDecrypt("Ifmmp! Uijt jt b tfdsfu nfttbhf.", "b") << endl;
     cout << vigenereDecrypt("Zincs! Mzmu zw t kieiim eiujezw.", "secret") << endl;
     cout << vigenereDecrypt("Zincs! Mzmu zw t kieiim eiujezw.", "SeCrEt") << endl;
+
+    cout << "\nAES128 Test Encryption:" << endl;
+    string plainText = "00112233445566778899aabbccddeeff";
+    string key = "000102030405060708090a0b0c0d0e0f";
+
+    AES_128Encrypt x = AES_128Encrypt(plainText, key);
+    cout << x.getCypherText() << endl;
+
     return 0;
 }
